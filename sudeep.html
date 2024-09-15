@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+</body>
+    <h1>form</h1>
+    <form></form>
+<p>
+<img src="C:\Users\sudeep\Pictures\WhatsApp Image 2024-07-01 at 20.37.58_f7221c74.jpg.jpg">
+<label for="email">Email: </label>
+<input type="email">
+</p>
+<p>
+<label for="password">Password: </label>
+<input type="password">
+</p>
+<p>
+<input type="submit" id="submit" value="Login">
+</p>
+</form>
+<script>
+const signUp = document.getElementById('submit');
+ signUp.addEventListener('click', () => {
+    const formValue = document.querySelector('form');
+     formValue.style.display = 'none';
+ document.querySelector('h1').innerText = "Success" 
+    });
+    </script>
+</body>
+</html>
